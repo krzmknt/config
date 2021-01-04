@@ -1,5 +1,5 @@
 function fish_prompt --description 'Write out the prompt'
-	printf '\n%s ❯❯❯ ' (set_color blue)(prompt_pwd)
+	printf '\n%s ❯❯❯ ' (set_color cyan)(prompt_pwd)
 end
 
 export PATH="$HOME/.pyenv/shims:$PATH"
@@ -73,3 +73,5 @@ end
 function c
 	g++ -o $argv {$argv}.cpp && ./{$argv}
 end
+
+

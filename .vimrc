@@ -1,5 +1,4 @@
 :syntax on
-colorscheme molokai
 
 set shell=/bin/bash
 
@@ -20,11 +19,12 @@ Plugin 'plasticboy/vim-markdown'
 " Plugin 'ctrlpvim/ctrlp.vim'
 " Plugin 'tacahiroy/ctrlp-funky'
 " Plugin 'suy/vim-strlp-commandline'
+Plugin 'nanotech/jellybeans.vim'
 
 call vundle#end() " required
 filetype plugin indent on " required
 
-
+colorscheme jellybeans
 
 "-------------------
 " vim-markdown
