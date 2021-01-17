@@ -1,6 +1,7 @@
 :syntax on
 
-set shell=/bin/bash
+set encoding=utf-8
+set shell=/usr/local/bin/fish
 
 set nocompatible " be iMproved, required
 
@@ -130,5 +131,10 @@ imap <silent> <C-D><C-D> <C-R>=strftime("%Y-%m-%d")<CR>
 imap <silent> <C-F> <Right>
 imap <silent> <C-B> <Left>
 imap <silent> <C-E> <Esc>A
+imap <silent> <C-A> <Esc>0i
+imap <silent> <C-S> <Esc>:w<CR>
+nmap <silent> <C-B> :Build<CR>
+:command Tr NERDTreeToggle
+:source ~/.vim/build.vim
 
 
