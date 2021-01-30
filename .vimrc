@@ -3,6 +3,8 @@
 set encoding=utf-8
 set shell=/usr/local/bin/fish
 
+set clipboard+=autoselect
+
 set nocompatible " be iMproved, required
 
 filetype off " required
