@@ -1,5 +1,5 @@
-set -l right_triangle   \ue0b0
-set segment_separator       $right_triangle
+# set -l right_triangle \ue0b0
+# set segment_separator $right_triangle
 
 set color_user
 set color_git_status_bar

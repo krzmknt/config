@@ -28,8 +28,8 @@ done
 ##############################
 FISH_DIR="$HOME/.config/fish"
 [ -e $FISH_DIR/functions ] || mkdir -p $FISH_DIR/functions
-ln -fv config.fish $FISH_DIR/config.fish
-ln -fv fish_prompt.fish $FISH_DIR/functions/fish_prompt.fish
+ln -fv fish/config.fish $FISH_DIR/config.fish
+ln -fv fish/functions/fish_prompt.fish $FISH_DIR/functions/fish_prompt.fish
 
 
 ##############################
