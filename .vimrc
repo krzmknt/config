@@ -12,21 +12,16 @@ filetype off " required
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
-
 Plugin 'scrooloose/nerdtree'
 Plugin 'itchyny/lightline.vim'
 Plugin 'bronson/vim-trailing-whitespace'
 Plugin 'Yggdroot/indentLine'
 Plugin 'godlygeek/tabular'
 Plugin 'plasticboy/vim-markdown'
-" Plugin 'ctrlpvim/ctrlp.vim'
-" Plugin 'tacahiroy/ctrlp-funky'
-" Plugin 'suy/vim-strlp-commandline'
 Plugin 'nanotech/jellybeans.vim'
-
-call vundle#end() " required
-filetype plugin indent on " required
-
+Plugin 'ghifarit53/tokyonight-vim'
+call vundle#end()
+filetype plugin indent on
 colorscheme jellybeans
 
 "-------------------
