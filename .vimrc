@@ -1,7 +1,7 @@
 :syntax on
 
 set encoding=utf-8
-set shell=/usr/local/bin/fish
+set shell=/bin/bash
 
 set clipboard+=autoselect
 
