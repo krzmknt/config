@@ -6,6 +6,11 @@ function! BuildFunc()
 	let filename = expand("%:r")
 	let filefullpath = expand("%:p")
 
+	if ext == "sh"
+		echo system('sh '.filefullpath)
+		return
+	endif
+
 	"""""""""""""""""""""""""
 	" acc
 	"""""""""""""""""""""""""
