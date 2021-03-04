@@ -93,6 +93,9 @@ function lf
   end
 end
 
+function blog
+	vim $WORK/blog/hugo/naomo/
+end
 
 ############################
 # Inbox and Workspace
@@ -103,7 +106,7 @@ set WORK $HOME
 [ -e ] && set WORK "$HOME/Workspace/"
 alias inbox "cd $INBOX"
 alias work  "cd $WORK"
-
+set NAOMO "$WORK/blog/hugo/naomo"
 
 ############################
 # Diary Launcher

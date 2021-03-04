@@ -20,6 +20,9 @@ Plugin 'godlygeek/tabular'
 Plugin 'plasticboy/vim-markdown'
 Plugin 'nanotech/jellybeans.vim'
 Plugin 'ghifarit53/tokyonight-vim'
+Plugin 'sophacles/vim-processing'
+
+
 call vundle#end()
 filetype plugin indent on
 colorscheme jellybeans
