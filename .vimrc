@@ -135,6 +135,6 @@ imap <silent> <C-A> <Esc>0i
 imap <silent> <C-S> <Esc>:w<CR>
 nmap <silent> <C-B> :Build<CR>
 :command Tr NERDTreeToggle
-" :source ~/.vim/build.vim
+:source ~/.vim/build.vim
 
 
