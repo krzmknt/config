@@ -32,6 +32,11 @@ ln -fv fish/functions/fish_prompt.fish $FISH_DIR/functions/fish_prompt.fish
 
 
 
+##############################
+# Vim
+##############################
+ln -sf build.vim ~/.vim/build.vim
+
 
 ##############################
 # Exiting Message
