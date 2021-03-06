@@ -53,7 +53,6 @@ set -g fish_pager_color_prefix      $color_main_light               # Tabキー�
 alias ml my-logger
 alias diff colordiff
 alias c "g++ -o $argv {$argv}.cpp && ./{$argv}"
-alias cat 'ccat -G String="_brown_" -G Plaintext="overline" -G Punctuation="darkteal" -G Decimal="darkgreen" -G Keyword="green" -G Comment="darkgray" -G Tag="faint"'
 function cd
 	builtin cd $argv; and la
 end
