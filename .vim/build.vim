@@ -24,7 +24,7 @@ function! BuildFunc()
 	" Python
 	"""""""""""""""""""""""""
 	if ext == "py"
-		echo system('python'.filefullpath)
+		echo system('python '.filefullpath)
 		return
 	endif
 
