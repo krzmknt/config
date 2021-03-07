@@ -69,7 +69,7 @@ function refresh
 end
 
 function new
-	mkdir -p (dirname $argv) && touch $argv && vim $argv
+	mkdir -p (dirname $argv); and touch $argv; and vim $argv
 end
 
 function l
@@ -101,8 +101,8 @@ end
 ############################
 set INBOX $HOME
 set WORK $HOME
-[ -e ] && set INBOX "$HOME/Inbox"
-[ -e ] && set WORK "$HOME/Workspace/"
+[ -e ]; and set INBOX "$HOME/Inbox"
+[ -e ]; and set WORK "$HOME/Workspace/"
 alias inbox "cd $INBOX"
 alias work  "cd $WORK"
 set NAOMO "$WORK/blog/hugo/naomo"
@@ -112,7 +112,7 @@ set NAOMO "$WORK/blog/hugo/naomo"
 ############################
 function diary
 	set file "~/diary/"(date +%Y%m%d)".md"
-	touch $file && vim $file
+	touch $file; and vim $file
 end
 
 

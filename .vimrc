@@ -2,11 +2,8 @@
 
 set encoding=utf-8
 set shell=/bin/bash
-
 set clipboard+=autoselect
-
 set nocompatible " be iMproved, required
-
 filetype off " required
 
 " set the runtime path to include Vundle and initialize
@@ -21,7 +18,6 @@ Plugin 'plasticboy/vim-markdown'
 Plugin 'nanotech/jellybeans.vim'
 Plugin 'ghifarit53/tokyonight-vim'
 Plugin 'sophacles/vim-processing'
-
 
 call vundle#end()
 filetype plugin indent on
