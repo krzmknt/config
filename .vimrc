@@ -134,3 +134,10 @@ nmap <silent> <C-B> :Build<CR>
 :source ~/.vim/build.vim
 
 
+" Move up and down depending on visible line
+nnoremap j gj
+nnoremap k gk
+
+
+
+
