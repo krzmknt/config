@@ -1,5 +1,7 @@
-:syntax on
+syntax on
 
+
+set termguicolors
 set encoding=utf-8
 set shell=/bin/bash
 set clipboard+=autoselect
@@ -15,10 +17,10 @@ Plugin 'bronson/vim-trailing-whitespace'
 Plugin 'Yggdroot/indentLine'
 Plugin 'godlygeek/tabular'
 Plugin 'plasticboy/vim-markdown'
-Plugin 'nanotech/jellybeans.vim'
-Plugin 'ghifarit53/tokyonight-vim'
+" Plugin 'nanotech/jellybeans.vim'
+" Plugin 'ghifarit53/tokyonight-vim'
 Plugin 'sophacles/vim-processing'
-
+Plugin 'nightsense/seabird'
 call vundle#end()
 filetype plugin indent on
 colorscheme jellybeans
