@@ -57,7 +57,16 @@ function cd
 	builtin cd $argv; and la
 end
 
-
+alias dc docker-compose
+function dcd 
+	dc down
+end
+function dcu
+	dc up --build -d
+end
+function dcl
+	dc logs
+end
 ############################
 # Utilities
 ############################
